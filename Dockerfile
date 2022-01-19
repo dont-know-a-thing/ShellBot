@@ -7,6 +7,6 @@ CMD sudo apt install -y make python build-essential
 #installs node latest version
 CMD nvm install node
 #Runs npm install
-CMD npm install
+CMD npm rebuild
 #Starts the bot
 CMD node server
